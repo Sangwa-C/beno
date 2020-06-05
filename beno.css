@@ -37,6 +37,38 @@ ul {
     font-size:2.5em;
    }
 
+   .company{
+    display:inline-block;
+    position: relative; 
+    
+   }
+
+   .company::after{
+    content: "";
+    height: 2px;
+    width: 40%;
+    background-color: red;
+    position: absolute;
+    left: 32%;
+    bottom:0;
+   }
+
+  .ourvalue{
+   display:inline-block;
+   position: relative; 
+  }
+
+  .ourvalue::after{
+    content: "";
+    height: 2px;
+    width: 20%;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    bottom:0;
+  }
+
+
   /* <div class="container">
         <!-- <h2>Carousel Example</h2>   -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
